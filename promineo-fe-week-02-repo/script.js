@@ -52,3 +52,23 @@ if (a == 5) {
 if (a == 5 && b == 6) {
     console.log('a is 5 and b is 6')
 }
+
+// LOOPS 
+
+for (let i = 0; i < 10; i++) {
+    console.log(i);
+}
+
+console.log('whatever is next')
+
+for (let i = 0; i < 20; i ++) {
+    if (i  % 2 == 0) {
+        console.log(i);
+    }
+}
+
+let names = ['Sam', 'Tom', 'Hillary'];
+
+for (let i = 0; i < names.length; i++) {
+    console.log(names[i]);
+}
